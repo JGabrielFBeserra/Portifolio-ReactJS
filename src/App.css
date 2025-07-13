@@ -33,6 +33,7 @@
     --font-normal: 400;
     --font-medium: 500;
     --font-semi-bold: 600;
+    --font-bold: 700;
 
     /* margens */
     --mb-0-25: 0.25rem;
@@ -161,15 +162,17 @@ img {
     align-items: center;
 }
 
-.button:hover {
+.button:hover,
+.button:active,
+.button:focus {
     background-color: var(--cor-titulo-dark);
 }
 
-.button-icon {
+.button--icon {
     margin-left: var(--mb-0-5);
 }
 
-.button-flex {
+.button--flex {
     display: inline-flex;
     align-items: center;
 }
