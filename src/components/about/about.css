@@ -50,18 +50,26 @@
     font-weight: var(--font-bold);
 }
 
+ .about {
+        padding-top: 80px;
+     }
+
 @media screen and (max-width: 992px) {
+    .about {
+        padding-top: 0px;
+     }
     .about.section {
         padding-top: 0rem;
         padding-bottom: 5rem;
     }
+    
     .about__container {
         grid-template-columns: 1fr;
         row-gap: 2.5rem;
     }
 
     .about__img {
-        width: 300px;
+        width: 325px;
         margin: auto;
     }
 
@@ -83,6 +91,10 @@
         text-align: center;
         text-align: justify;
     }
+
+    .section__subtitle {
+        margin-bottom: var(--mb-1);
+    }
 }
 
 
@@ -93,7 +105,7 @@
     }
 
     .about__img {
-        width: 250px;
+        width: 260px;
         margin: auto;
     }
 

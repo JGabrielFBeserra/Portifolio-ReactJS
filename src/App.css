@@ -11,8 +11,8 @@
     --cor-titulo: hsl(var(--matriz), var(--saturacao), 20%);
     --cor-titulo-dark: hsl(var(--matriz), var(--saturacao), 0%);
     --cor-texto: hsl(var(--matriz), var(--saturacao), 46%);
-    --body-color: hsl(var(--matriz), var(--saturacao), 98%);
-    --container-color: #cecece;
+    --body-color: hsl(var(--matriz), var(--saturacao), 96%);
+    --container-color: #efefef;
 
     --body-font: 'Inria Sans', sans-serif;
 
@@ -88,7 +88,7 @@ textarea {
 }
 
 body {
-    background-color: var(--body-color);
+    background-color: var(--container-color);
     color: var(--cor-texto);
 
 }
@@ -162,10 +162,13 @@ img {
     align-items: center;
 }
 
-.button:hover,
-.button:active,
-.button:focus {
+.button:hover {
     background-color: var(--cor-titulo-dark);
+}
+
+.button:focus {
+    background-color: var(--cor-titulo);
+    outline: none;
 }
 
 .button--icon {
@@ -175,7 +178,10 @@ img {
 .button--flex {
     display: inline-flex;
     align-items: center;
+    color: var(--body-color);
 }
+
+
 
 /* breakpoints */
 

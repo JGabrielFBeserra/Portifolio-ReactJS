@@ -28,7 +28,7 @@ const Info = () => {
                     Habilidades
                 </h3>
                 <span className="about__subtitle">
-                    ReactJS, Python Java e +
+                ReactJS, Python, Java +
                 </span>
             </div>
 
