@@ -1,5 +1,10 @@
 import React from "react";
+import { FaReact } from "react-icons/fa";
 import './skills.css';
+import Frontend from "./Frontend";
+import Backend from "./Backend";    
+import Database from "./Database";
+import Devops from "./Devops";  
 
 
 const Skills = () => {
@@ -11,8 +16,11 @@ const Skills = () => {
             <span className="section__subtitle">
                 Conhecimentos e Tecnologias
             </span>
-            <div className="skills_container container grid">
-                
+            <div className="skills__container container grid">
+                <Frontend />
+                <Backend />
+                <Database />
+                <Devops />  
             </div>
         </section>
     )
