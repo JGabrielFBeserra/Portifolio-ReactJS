@@ -178,7 +178,7 @@ img {
 .button--flex {
     display: inline-flex;
     align-items: center;
-    color: var(--body-color);
+   
 }
 
 

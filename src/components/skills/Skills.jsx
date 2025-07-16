@@ -9,7 +9,7 @@ import Devops from "./Devops";
 
 const Skills = () => {
     return (
-        <section className="skills section">
+        <section className="skills section" id="habilidades">
             <h2 className="section__title">
                 Habilidades
             </h2>

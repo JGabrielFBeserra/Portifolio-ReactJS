@@ -11,19 +11,6 @@ const Devops = () => {
             <div className="skills__box">
                 <div className="skills__group">
 
-
-                    <div className="skills__data">
-
-                        <div className="">
-                            <h3 className="skills__name">
-                                <FaDocker className="skills__icon" />    Docker - &nbsp; <h3 className="skills__subtitle">Básico</h3>
-                            </h3>
-                            <span className="skills__level">
-                                Já subi dois containers, sei o básico para poder usar.
-                            </span>
-                        </div>
-                    </div>
-
                     <div className="skills__data">
 
                         <div className="">
@@ -42,10 +29,23 @@ const Devops = () => {
                                 <FaGithub className="skills__icon" />    GitHub - &nbsp; <h3 className="skills__subtitle">Intermediário</h3>
                             </h3>
                             <span className="skills__level">
-                                Já trabalhei sozinho e em equipe, sei como usar.
+                                Já trabalhei sozinho e em equipe, sei como me portar.
                             </span>
                         </div>
                     </div>
+                    <div className="skills__data">
+
+                        <div className="">
+                            <h3 className="skills__name">
+                                <FaDocker className="skills__icon" />    Docker - &nbsp; <h3 className="skills__subtitle">Básico</h3>
+                            </h3>
+                            <span className="skills__level">
+                                Já subi dois containers, sei o básico para poder usar.
+                            </span>
+                        </div>
+                    </div>
+
+
 
                 </div>
             </div>

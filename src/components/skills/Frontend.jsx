@@ -26,6 +26,17 @@ const Frontend = () => {
                         </div>
                     </div>
                     <div className="skills__data">
+                        <div className="">
+                            <h3 className="skills__name">
+                                <FaBootstrap className="skills__icon" />    Bootstrap - &nbsp; <h3 className="skills__subtitle">Avançado</h3>
+                            </h3>
+                            <span className="skills__level">
+                                Engatinhei com Bootstrap, já usei muito.
+
+                            </span>
+                        </div>
+                    </div>
+                    <div className="skills__data">
 
                         <div className="">
                             <h3 className="skills__name">
@@ -47,17 +58,7 @@ const Frontend = () => {
                             </span>
                         </div>
                     </div>
-                    <div className="skills__data">
-                        <div className="">
-                            <h3 className="skills__name">
-                                <FaBootstrap className="skills__icon" />    Bootstrap - &nbsp; <h3 className="skills__subtitle">Avançado</h3>
-                            </h3>
-                            <span className="skills__level">
-                                Engatinhei com Bootstrap, já usei muito.
-
-                            </span>
-                        </div>
-                    </div>
+                    
                     <div className="skills__data">
 
                         <div className="">
