@@ -16,7 +16,7 @@ const Backend = () => {
 
                         <div className="">
                             <h3 className="skills__name">
-                                <IoLogoJavascript className="skills__icon" />    JavaScript
+                                <IoLogoJavascript className="skills__icon" />    JavaScript - &nbsp; <h3 className="skills__subtitle">Experiente</h3>
                             </h3>
                             <span className="skills__level">
                                 Principal. Tenho experiência com Node.js e Express.
@@ -27,7 +27,7 @@ const Backend = () => {
 
                         <div className="">
                             <h3 className="skills__name">
-                                <FaPython className="skills__icon" />    Python
+                                <FaPython className="skills__icon" />    Python - &nbsp; <h3 className="skills__subtitle">Intermediário</h3>
                             </h3>
                             <span className="skills__level">
                                 Estou aprendendo, foco na automatização de processos.
@@ -38,7 +38,7 @@ const Backend = () => {
 
                         <div className="">
                             <h3 className="skills__name">
-                                <FaJava className="skills__icon" />    Java
+                                <FaJava className="skills__icon" />    Java - &nbsp; <h3 className="skills__subtitle">Fundamental</h3>
                             </h3>
                             <span className="skills__level">
                                 Básico, planejo me aprofundar tornar-lá minha principal.
@@ -49,7 +49,7 @@ const Backend = () => {
 
                         <div className="">
                             <h3 className="skills__name">
-                                <FaPhp className="skills__icon" />    PHP
+                                <FaPhp className="skills__icon" />    PHP - &nbsp; <h3 className="skills__subtitle">Fundamental</h3>
                             </h3>
                             <span className="skills__level">
                                 Já mexi em projetos Wordpress.

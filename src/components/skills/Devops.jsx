@@ -16,7 +16,7 @@ const Devops = () => {
 
                         <div className="">
                             <h3 className="skills__name">
-                                <FaDocker className="skills__icon" />    Docker
+                                <FaDocker className="skills__icon" />    Docker - &nbsp; <h3 className="skills__subtitle">Básico</h3>
                             </h3>
                             <span className="skills__level">
                                 Já subi dois containers, sei o básico para poder usar.
@@ -28,7 +28,7 @@ const Devops = () => {
 
                         <div className="">
                             <h3 className="skills__name">
-                                <FaGitAlt className="skills__icon" />    Git
+                                <FaGitAlt className="skills__icon" />    Git - &nbsp; <h3 className="skills__subtitle">Intermediário</h3>
                             </h3>
                             <span className="skills__level">
                                 Versionamento é essencial, manjo o suficiente.
@@ -39,7 +39,7 @@ const Devops = () => {
 
                         <div className="">
                             <h3 className="skills__name">
-                                <FaGithub className="skills__icon" />    GitHub
+                                <FaGithub className="skills__icon" />    GitHub - &nbsp; <h3 className="skills__subtitle">Intermediário</h3>
                             </h3>
                             <span className="skills__level">
                                 Já trabalhei sozinho e em equipe, sei como usar.
