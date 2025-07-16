@@ -28,6 +28,12 @@
     margin-right: 0.5rem ;
 }
 
+.skills__name {
+    display: flex;
+    align-items: center;
+    font-size: var(--h3-font-size);
+}
+
 .skills__data {
     margin-bottom: 1rem;
 }
