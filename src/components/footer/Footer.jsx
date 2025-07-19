@@ -28,7 +28,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="footer__copy">
-                    &#169; Desenvolvido. Todos os direitos reservados.
+                    &#169; João Gabriel. Todos os direitos reservados.
                 </div>
             </div>
         </footer>
